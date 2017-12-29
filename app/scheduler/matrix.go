@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/aid/history"
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app/aid/history"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/cache"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 // 一个Spider实例的请求矩阵

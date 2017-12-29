@@ -4,10 +4,10 @@ import (
 	"github.com/lxn/walk"
 	. "github.com/lxn/walk/declarative"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 func offlineWindow() {

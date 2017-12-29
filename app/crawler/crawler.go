@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/downloader"
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/pipeline"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/app/downloader"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/app/pipeline"
+	"qtrx.io/lycosa/app/spider"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/cache"
 )
 
 // 采集引擎

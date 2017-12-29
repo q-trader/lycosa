@@ -5,11 +5,11 @@ import (
 
 	mgov2 "gopkg.in/mgo.v2"
 
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/common/mgo"
+	"qtrx.io/lycosa/common/pool"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
 )
 
 /************************ MongoDB 输出 ***************************/

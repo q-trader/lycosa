@@ -1,24 +1,24 @@
-# Pholcus    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/github.com/henrylee2cn/pholcus) [![GitHub release](https://img.shields.io/github/release/henrylee2cn/pholcus.svg)](https://github.com/henrylee2cn/pholcus/releases)
+# Pholcus    [![GoDoc](https://godoc.org/github.com/tsuna/gohbase?status.png)](https://godoc.org/qtrx.io/lycosa) [![GitHub release](https://img.shields.io/github/release/henrylee2cn/pholcus.svg)](https://qtrx.io/lycosa/releases)
 
 Pholcus（幽灵蛛）是一款纯Go语言编写的支持分布式的高并发、重量级爬虫软件，定位于互联网数据采集，为具备一定Go或JS编程基础的人提供一个只需关注规则定制的功能强大的爬虫工具。
 
 它支持单机、服务端、客户端三种运行模式，拥有Web、GUI、命令行三种操作界面；规则简单灵活、批量任务并发、输出方式丰富（mysql/mongodb/kafka/csv/excel等）、有大量Demo共享；另外它还支持横纵向两种抓取模式，支持模拟登录和任务暂停、取消等一系列高级功能。
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/icon.png)
+![image](https://qtrx.io/lycosa/raw/master/doc/icon.png)
 
 * 官方QQ群：Go大数据 42731170    [![Go大数据群](http://pub.idqqimg.com/wpa/images/group.png)](http://jq.qq.com/?_wv=1027&k=XnGGnc)
 
 # 爬虫原理
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/module.png)
+![image](https://qtrx.io/lycosa/raw/master/doc/module.png)
 
 &nbsp;
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/project.png)
+![image](https://qtrx.io/lycosa/raw/master/doc/project.png)
 
 &nbsp;
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/distribute.png)
+![image](https://qtrx.io/lycosa/raw/master/doc/distribute.png)
 
 
 # 框架特点
@@ -68,10 +68,10 @@ Pholcus（幽灵蛛）是一款纯Go语言编写的支持分布式的高并发�
 # 下载安装
 
 ```
-go get -u -v github.com/henrylee2cn/pholcus
+go get -u -v qtrx.io/lycosa
 ```
 
-备注：Pholcus公开维护的spider规则库地址 <https://github.com/henrylee2cn/pholcus_lib>
+备注：Pholcus公开维护的spider规则库地址 <https://qtrx.io/lycosa_lib>
 
 &nbsp;
 
@@ -81,8 +81,8 @@ go get -u -v github.com/henrylee2cn/pholcus
 package main
 
 import (
-    "github.com/henrylee2cn/pholcus/exec"
-    _ "github.com/henrylee2cn/pholcus_lib" // 此为公开维护的spider规则库
+    "qtrx.io/lycosa/exec"
+    _ "qtrx.io/lycosa_lib" // 此为公开维护的spider规则库
     // _ "pholcus_lib_pte" // 同样你也可以自由添加自己的规则库
 )
 
@@ -98,31 +98,31 @@ func main() {
 # 编译运行
 正常编译方法
 ```
-cd {{replace your gopath}}/src/github.com/henrylee2cn/pholcus
+cd {{replace your gopath}}/src/qtrx.io/lycosa
 go install 或者 go build
 ```
 Windows下隐藏cmd窗口的编译方法
 ```
-cd {{replace your gopath}}/src/github.com/henrylee2cn/pholcus
+cd {{replace your gopath}}/src/qtrx.io/lycosa
 go install -ldflags="-H windowsgui" 或者 go build -ldflags="-H windowsgui"
 ```
 查看可选参数: 
 ```
 pholcus -h
 ```
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/help.jpg)
+![image](https://qtrx.io/lycosa/raw/master/doc/help.jpg)
 
 &nbsp;
 
 > *<font size="2">Web版操作界面截图如下：*
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/webshow_1.jpg)
+![image](https://qtrx.io/lycosa/raw/master/doc/webshow_1.jpg)
 
 &nbsp;
 
 > *<font size="2">GUI版操作界面之模式选择界面截图如下*
 
-![image](https://github.com/henrylee2cn/pholcus/raw/master/doc/guishow_0.jpg)
+![image](https://qtrx.io/lycosa/raw/master/doc/guishow_0.jpg)
 
 &nbsp;
 
@@ -360,10 +360,10 @@ url页面内容的更新，框架无法直接支持判断，但是用户可以�
 "github.com/go-sql-driver/mysql"
 "github.com/lxn/walk"
 "github.com/elazarl/go-bindata-assetfs"
-"github.com/henrylee2cn/pholcus_lib" // 此为公开维护的spider规则库
+"qtrx.io/lycosa_lib" // 此为公开维护的spider规则库
 ```
 > *<font size="2">（在此感谢以上开源项目的支持！）</font>*
 
 # 开源协议
 
-Pholcus（幽灵蛛）项目采用商业应用友好的[Apache License v2](https://github.com/henrylee2cn/pholcus/raw/master/LICENSE).发布
+Pholcus（幽灵蛛）项目采用商业应用友好的[Apache License v2](https://qtrx.io/lycosa/raw/master/LICENSE).发布

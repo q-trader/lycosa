@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector/data"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/app/pipeline/collector/data"
+	"qtrx.io/lycosa/app/spider"
+	"qtrx.io/lycosa/runtime/cache"
 )
 
 // 结果收集与输出

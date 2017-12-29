@@ -9,10 +9,10 @@ import (
 	"github.com/lxn/walk"
 	"github.com/lxn/walk/declarative"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	. "github.com/henrylee2cn/pholcus/gui/model"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/app/spider"
+	. "qtrx.io/lycosa/gui/model"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 // 执行入口

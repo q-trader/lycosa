@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/cmd"
-	"github.com/henrylee2cn/pholcus/common/gc"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
-	"github.com/henrylee2cn/pholcus/web"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/cmd"
+	"qtrx.io/lycosa/common/gc"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/runtime/cache"
+	"qtrx.io/lycosa/runtime/status"
+	"qtrx.io/lycosa/web"
 )
 
 var (

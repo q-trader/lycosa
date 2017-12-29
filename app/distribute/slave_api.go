@@ -3,7 +3,7 @@ package distribute
 import (
 	"encoding/json"
 
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/logs"
 	"github.com/henrylee2cn/teleport"
 )
 

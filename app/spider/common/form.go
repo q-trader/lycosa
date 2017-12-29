@@ -4,10 +4,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/henrylee2cn/pholcus/common/goquery"
+	"qtrx.io/lycosa/common/goquery"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	. "github.com/henrylee2cn/pholcus/app/spider"
+	"qtrx.io/lycosa/app/downloader/request"
+	. "qtrx.io/lycosa/app/spider"
 )
 
 // Form is the default form element.

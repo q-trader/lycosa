@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 // 采集引擎池

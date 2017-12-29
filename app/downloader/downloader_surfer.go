@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/config"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/app/downloader/surfer"
+	"qtrx.io/lycosa/app/spider"
+	"qtrx.io/lycosa/config"
 )
 
 type Surfer struct {

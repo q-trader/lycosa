@@ -3,11 +3,11 @@ package pipeline
 import (
 	"sort"
 
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector"
-	"github.com/henrylee2cn/pholcus/common/kafka"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/app/pipeline/collector"
+	"qtrx.io/lycosa/common/kafka"
+	"qtrx.io/lycosa/common/mgo"
+	"qtrx.io/lycosa/common/mysql"
+	"qtrx.io/lycosa/runtime/cache"
 )
 
 // 初始化输出方式列表collector.DataOutputLib

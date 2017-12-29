@@ -5,9 +5,9 @@ import (
 
 	mgo "gopkg.in/mgo.v2"
 
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/common/pool"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
 )
 
 type MgoSrc struct {

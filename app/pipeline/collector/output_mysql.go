@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/common/mysql"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/logs"
 )
 
 /************************ Mysql 输出 ***************************/

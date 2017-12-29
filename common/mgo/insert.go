@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/henrylee2cn/pholcus/common/pool"
+	"qtrx.io/lycosa/common/pool"
 )
 
 // 插入新数据

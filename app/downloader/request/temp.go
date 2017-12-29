@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/logs"
 )
 
 type Temp map[string]interface{}

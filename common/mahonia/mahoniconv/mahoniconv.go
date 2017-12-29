@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/henrylee2cn/pholcus/common/mahonia"
+	"qtrx.io/lycosa/common/mahonia"
 	"io"
 	"log"
 	"os"

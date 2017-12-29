@@ -6,8 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs/logs"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs/logs"
 )
 
 type (

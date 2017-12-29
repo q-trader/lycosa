@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/cache"
 )
 
 var (

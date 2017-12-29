@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/common/session"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/common/session"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 var globalSessions *session.Manager

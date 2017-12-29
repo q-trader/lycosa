@@ -4,9 +4,9 @@ import (
 	"github.com/lxn/walk"
 	"github.com/lxn/walk/declarative"
 
-	. "github.com/henrylee2cn/pholcus/gui/model"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	. "qtrx.io/lycosa/gui/model"
+	"qtrx.io/lycosa/runtime/cache"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 // GUI输入

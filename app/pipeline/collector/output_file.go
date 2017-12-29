@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/henrylee2cn/pholcus/app/pipeline/collector/data"
-	bytesSize "github.com/henrylee2cn/pholcus/common/bytes"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	// "github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/app/pipeline/collector/data"
+	bytesSize "qtrx.io/lycosa/common/bytes"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
+	// "qtrx.io/lycosa/runtime/cache"
 )
 
 // 文件输出

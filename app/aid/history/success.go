@@ -6,9 +6,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/config"
+	"qtrx.io/lycosa/common/mgo"
+	"qtrx.io/lycosa/common/mysql"
+	"qtrx.io/lycosa/config"
 )
 
 type Success struct {

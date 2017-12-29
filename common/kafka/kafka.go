@@ -4,9 +4,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
 
 	"github.com/Shopify/sarama"
 )

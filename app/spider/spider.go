@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/scheduler"
-	"github.com/henrylee2cn/pholcus/common/util"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/app/scheduler"
+	"qtrx.io/lycosa/common/util"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 const (

@@ -3,13 +3,13 @@ package web
 import (
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/app/spider"
-	"github.com/henrylee2cn/pholcus/common/util"
-	ws "github.com/henrylee2cn/pholcus/common/websocket"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/app/spider"
+	"qtrx.io/lycosa/common/util"
+	ws "qtrx.io/lycosa/common/websocket"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 type SocketController struct {

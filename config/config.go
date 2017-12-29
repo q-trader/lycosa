@@ -3,8 +3,8 @@ package config
 import (
 	"strings"
 
-	"github.com/henrylee2cn/pholcus/logs/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
+	"qtrx.io/lycosa/logs/logs"
+	"qtrx.io/lycosa/runtime/cache"
 )
 
 // 软件信息。

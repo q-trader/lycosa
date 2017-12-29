@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer"
+	"qtrx.io/lycosa/app/downloader/surfer"
 	"io/ioutil"
 	"log"
 	"time"

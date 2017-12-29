@@ -3,8 +3,8 @@ package gui
 import (
 	. "github.com/lxn/walk/declarative"
 
-	"github.com/henrylee2cn/pholcus/app"
-	"github.com/henrylee2cn/pholcus/config"
+	"qtrx.io/lycosa/app"
+	"qtrx.io/lycosa/config"
 )
 
 func clientWindow() {

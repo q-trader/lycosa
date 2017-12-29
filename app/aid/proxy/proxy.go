@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/app/downloader/surfer"
-	"github.com/henrylee2cn/pholcus/common/ping"
-	"github.com/henrylee2cn/pholcus/config"
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/app/downloader/surfer"
+	"qtrx.io/lycosa/common/ping"
+	"qtrx.io/lycosa/config"
+	"qtrx.io/lycosa/logs"
 )
 
 type Proxy struct {

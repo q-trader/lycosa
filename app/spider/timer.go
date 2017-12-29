@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/logs"
 )
 
 type Timer struct {

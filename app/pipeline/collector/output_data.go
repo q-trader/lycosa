@@ -1,7 +1,7 @@
 package collector
 
 import (
-	"github.com/henrylee2cn/pholcus/logs"
+	"qtrx.io/lycosa/logs"
 )
 
 var (

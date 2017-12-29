@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/pholcus/app/aid/proxy"
-	"github.com/henrylee2cn/pholcus/logs"
-	"github.com/henrylee2cn/pholcus/runtime/cache"
-	"github.com/henrylee2cn/pholcus/runtime/status"
+	"qtrx.io/lycosa/app/aid/proxy"
+	"qtrx.io/lycosa/logs"
+	"qtrx.io/lycosa/runtime/cache"
+	"qtrx.io/lycosa/runtime/status"
 )
 
 // 调度器

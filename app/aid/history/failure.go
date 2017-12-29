@@ -7,11 +7,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/henrylee2cn/pholcus/app/downloader/request"
-	"github.com/henrylee2cn/pholcus/common/mgo"
-	"github.com/henrylee2cn/pholcus/common/mysql"
-	"github.com/henrylee2cn/pholcus/common/pool"
-	"github.com/henrylee2cn/pholcus/config"
+	"qtrx.io/lycosa/app/downloader/request"
+	"qtrx.io/lycosa/common/mgo"
+	"qtrx.io/lycosa/common/mysql"
+	"qtrx.io/lycosa/common/pool"
+	"qtrx.io/lycosa/config"
 )
 
 type Failure struct {

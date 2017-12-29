@@ -5,10 +5,10 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/henrylee2cn/pholcus/config"
+	"qtrx.io/lycosa/config"
 
-	"github.com/henrylee2cn/pholcus/cmd" // cmd版
-	"github.com/henrylee2cn/pholcus/web" // web版
+	"qtrx.io/lycosa/cmd" // cmd版
+	"qtrx.io/lycosa/web" // web版
 )
 
 func run(which string) {

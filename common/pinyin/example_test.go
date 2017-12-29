@@ -1,7 +1,7 @@
 package pinyin_test
 
 import (
-	"github.com/henrylee2cn/pholcus/common/pinyin"
+	"qtrx.io/lycosa/common/pinyin"
 	"testing"
 )
 
